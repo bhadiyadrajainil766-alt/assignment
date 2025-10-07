@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     float fahrenheit, celsius;
 
     // Input temperature in Fahrenheit
