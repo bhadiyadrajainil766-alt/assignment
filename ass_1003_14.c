@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int num, i;
     long long fact = 1;
 
@@ -9,10 +10,14 @@ int main() {
     scanf("%d", &num);
 
     // Check for negative number
-    if (num < 0) {
+    if (num < 0) 
+    {
         printf("Factorial of negative numbers is not defined.\n");
-    } else {
-        for (i = 1; i <= num; i++) {
+    } 
+    else 
+    {
+        for (i = 1; i <= num; i++) 
+        {
             fact = fact * i;
         }
         printf("Factorial of %d = %lld\n", num, fact);
