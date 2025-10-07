@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     int length, width, perimeter;
 
     // Input length and width of the rectangle
