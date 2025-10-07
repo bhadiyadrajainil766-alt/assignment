@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     int num, original, remainder, result = 0, n = 0;
     int temp;
 
@@ -11,7 +11,8 @@ int main() {
     temp = num;
 
     // Count number of digits
-    while (temp != 0) {
+    while (temp != 0) 
+    {
         temp /= 10;
         n++;
     }
@@ -19,12 +20,14 @@ int main() {
     temp = num;
 
     // Calculate sum of each digit raised to the power n
-    while (temp != 0) {
+    while (temp != 0) 
+    {
         remainder = temp % 10;
 
         // Multiply remainder 'n' times instead of using pow()
         int power = 1;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             power *= remainder;
         }
 
