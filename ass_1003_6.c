@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main() 
+{
     char str1[100], str2[100];
 
     printf("Enter first string: ");
@@ -10,10 +11,12 @@ int main() {
     printf("Enter second string: ");
     scanf("%s", str2);
 
-    if(strcmp(str1, str2) == 0) {
+    if(strcmp(str1, str2) == 0) 
+    {
         printf("Strings are equal.\n");
     } 
-    else {
+    else 
+    {
         printf("Strings are not equal.\n");
     }
 
