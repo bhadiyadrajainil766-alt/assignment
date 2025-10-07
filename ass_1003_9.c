@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int a, b, c, smallest;
 
@@ -8,13 +7,16 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
 
     // Find smallest
-    if (a <= b && a <= c) {
+    if (a <= b && a <= c) 
+    {
         smallest = a;
     } 
-    else if (b <= a && b <= c) {
+    else if (b <= a && b <= c) 
+    {
         smallest = b;
     } 
-    else {
+    else 
+    {
         smallest = c;
     }
 
