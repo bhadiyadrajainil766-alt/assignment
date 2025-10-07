@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     int num1, num2, max, lcm;
 
     // Input two numbers
@@ -11,8 +11,10 @@ int main() {
     max = (num1 > num2) ? num1 : num2;
 
     // Find LCM
-    while (1) {
-        if (max % num1 == 0 && max % num2 == 0) {
+    while (1) 
+    {
+        if (max % num1 == 0 && max % num2 == 0) 
+        {
             lcm = max;
             break;
         }
