@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int n, i;
 
     // Input value of N
@@ -9,7 +10,8 @@ int main() {
 
     printf("First %d odd numbers are:\n", n);
 
-    for (i = 1; i <= n; i++) {
+    for (i = 1; i <= n; i++) 
+    {
         printf("%d \n", 2 * i - 1);
     }
 
